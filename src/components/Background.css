@@ -1,0 +1,48 @@
+.bg-gradient {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  transition: background 1.5s ease;
+}
+
+.bg-gradient.sunny {
+  background:
+    radial-gradient(ellipse at 20% 20%, #f97316 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 80%, #fb923c 0%, transparent 50%),
+    linear-gradient(135deg, #1a0a00 0%, #0f1b2d 60%, #0a1628 100%);
+}
+
+.bg-gradient.cloudy {
+  background:
+    radial-gradient(ellipse at 30% 30%, #475569 0%, transparent 50%),
+    radial-gradient(ellipse at 70% 70%, #334155 0%, transparent 50%),
+    linear-gradient(135deg, #0f172a 0%, #1e293b 60%, #0f1b2d 100%);
+}
+
+.bg-gradient.rainy {
+  background:
+    radial-gradient(ellipse at 20% 20%, #1e40af 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 80%, #1d4ed8 0%, transparent 50%),
+    linear-gradient(135deg, #0a0f1e 0%, #0f1b2d 60%, #071020 100%);
+}
+
+.bg-gradient.night {
+  background:
+    radial-gradient(ellipse at 50% 10%, #312e81 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 80%, #1e1b4b 0%, transparent 40%),
+    linear-gradient(135deg, #020617 0%, #0f172a 60%, #020617 100%);
+}
+
+.bg-gradient.snowy {
+  background:
+    radial-gradient(ellipse at 30% 20%, #bfdbfe 0%, transparent 50%),
+    radial-gradient(ellipse at 70% 80%, #93c5fd 0%, transparent 50%),
+    linear-gradient(135deg, #0c1929 0%, #0f1b2d 60%, #0c1929 100%);
+}
+
+.bg-gradient.default {
+  background:
+    radial-gradient(ellipse at 20% 20%, #00b4d8 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 80%, #0077b6 0%, transparent 50%),
+    linear-gradient(135deg, #03045e 0%, #0f1b2d 60%, #023e8a 100%);
+}
